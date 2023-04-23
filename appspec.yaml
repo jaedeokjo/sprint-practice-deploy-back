@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+# source(repo) => dest(instance)
+  - source: /
+    destination: /home/ubuntu/build
+hooks:
+  AfterInstall:
+  # repo base
+    - location: /start.sh
