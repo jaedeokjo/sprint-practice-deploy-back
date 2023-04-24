@@ -1,4 +1,5 @@
 #!/bin/bash
+source ~/.profile
 cd /home/ubuntu/sprint-practice-deploy-for04
 npm install
 npm install pm2@latest -g
