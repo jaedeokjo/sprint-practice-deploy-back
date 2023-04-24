@@ -1,2 +1,4 @@
-pwd>/home/ubuntu/location
-echo "hello world" >> /home/ubuntu/location
+pwd > /home/ubuntu/test
+echo "hello world" >> /home/ubuntu/test
+
+node
