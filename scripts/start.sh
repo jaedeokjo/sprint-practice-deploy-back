@@ -1,5 +1,5 @@
 #!/bin/bash
-source ~/.profile
+source ~/.bashrc
 cd /home/ubuntu/sprint-practice-deploy-for04
 node --version
 npm --version
