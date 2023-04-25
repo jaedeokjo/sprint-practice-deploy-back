@@ -3,6 +3,8 @@ os: linux
 files:
   - source: /
     destination: /home/ubuntu/sprint-practice-deploy-for04
+    overwrite: yes
+  file_exsists_behavior: OVERWRITE
 
 hooks:
   ApplicationStop:
